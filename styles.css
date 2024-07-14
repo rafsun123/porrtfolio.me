@@ -1,0 +1,253 @@
+a {
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family;  "Times New Roman", Times, serif;
+}
+
+
+body {
+    background:#000000;
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width : 100%;
+    padding: 20px 10%;
+    background:#000000 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+
+}
+.logo{
+    position: relative;
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 500;
+
+
+
+}
+.navbar a {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+
+}
+.navbar a:hover{
+    color: #e3d6d6d6;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height:100vh;
+    padding: 70px 10% 0;
+    align-items: center;
+    display: flex;
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+.buttonf{
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(32, 20, 206)
+         ; color:white ;
+         border: 12px;
+
+         border-radius: 12px;
+         cursor: pointer;
+        transition: background-color 1s;
+        color:1s;
+        height:35px ;
+         width: 100px;
+
+
+}
+.buttonI{
+    background-color:rgb(235 15 99) ;
+
+            border-style: solid;
+            border:12px;
+            border-color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+    font-weight: 500;
+    color: #ffffff ;
+    margin-left: 25px;
+    height:35px ;
+         width: 100px;
+}
+.buttonL{
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(32, 20, 206)
+         ; color:white ;
+         border: 12px;
+
+         border-radius: 10px;
+         cursor: pointer;
+        transition: background-color 1s;
+        color:1s; margin-left: 25px;
+        height:35px ;
+         width: 100px;
+}
+.about{
+    align-items: center:
+}
+.about-text h2{
+    font-size:40px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 70px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: rgb(219 188 188);
+    font-weight: 600;
+}
+
+.about-text p{
+    font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 70px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;
+}
+.about-text span{font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 30px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;}
+
+.activities-text h2{font-size:40px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 70px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: rgb(219 188 188);
+    font-weight: 600;}
+
+.activities-text p{font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;}
+
+.activities-text span{font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;}
+
+    .Achievements-text h2{font-size:40px;
+        position: relative;
+        width: 100%;
+        justify-content: space-between;
+
+        padding: 100px 10% 0;
+        align-items: center;
+        display: flex;
+
+        color: rgb(219 188 188);
+        font-weight: 600;
+
+
+}
+.Achievements-text li{font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;}
+.contact h2{
+    font-size:40px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 100px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: rgb(219 188 188);
+    font-weight: 600;
+}
+.contact p{
+    font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;
+}
+.contact li{
+    font-size:20px;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+
+    padding: 20px 10% 0;
+    align-items: center;
+    display: flex;
+
+    color: #ffffff;
+    font-weight: 500;
+}
+.social-media{ font-size: 20px; font-weight:500; margin: 25px; margin-left:135px;color:white; }
